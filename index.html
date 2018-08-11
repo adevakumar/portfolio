@@ -4,26 +4,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Anjali's Personal Website!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
      <link rel="stylesheet" href="customstyle.css">
+     <script src="customjs.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src="/Users/anjalidevakumar/node_modules/bulma-extensions/bulma-timeline/dist/bulma-timeline.min.js"></script>
+
 </head>
 
 <body>
 <!-- Container element -->
-  <div class="container is-fullhd has-background-info">
-    <div class="field is-grouped">
-    <nav class="navbar is-fixed-top">
-    	<div class="navbar-end is-fixed-top">
-           <span class="navbar-item">
-            <a class="button is-small is-outlined" href="#about">
+<nav class="navbar is-fixed-top">
+<div class="container">
+<div class="navbar-brand">
+      <a class="navbar-item"">
+        Anjali Devakumar
+      </a>
+      <span class="navbar-burger" data-target="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+<div id="navMenu" class="navbar-menu">
+<div class="navbar-end">
+
+        <span class="navbar-item is-active">
+            <a class="button is-small is-outlined" href="#About">
                 <span class="icon">
                     <i class="fa fa-home" aria-hidden="true"></i>
                 </span>
                 <span>About</span>
             </a>
         </span>
+
         <span class="navbar-item">
             <a class="button is-small is-inverted" href="#experience">
                 <span class="icon">
@@ -51,14 +66,16 @@
             <span>Connect!</span>
         </a>
     </span>
-</div>
+
+      </div>
 </div>
 </div>
 </nav>
 
+<div class="container is-fullhd">
 <section class="hero is-white is-medium section-padding-medium">
     <div class="hero-body">
-        <div id="About">
+        <div>
             <div class="container has-text-centered">
                 <div class="column is-6 is-offset-3">
                     <h1 id="anj" class="title is-1">ANJALI DEVAKUMAR</h1>
@@ -75,17 +92,17 @@
 </div>
 </section>
 
-<div id="Experience">
 <section class="section is-light">
-    <div class="container is-centered">
+    <div id="About" class="container is-centered">
                           <h1 id="header1" class="title is-3 has-text-centered">About</h1>
 
       <h2 class = "content has-text-weight-light has-text-left" >
-            s a student in UMass Amherst’s , I have taken Psychology, Communication Disorders, and Linguistics classes in addition to Computer Science; this diverse exposure has led to an interest in <strong>Human-Computer Interaction</strong>. My primary research goals include understanding how people process information, form decisions and engage with technology in order to build effective tools. 
+            <p>In college, I have taken Psychology, Communication Disorders, and Linguistics classes in addition to Computer Science; this diverse exposure has led to an interest in Human-Computer Interaction. My primary research goals include understanding how people process information, form decisions and engage with technology in order to build effective tools. Understanding how people form judgments and perceive the world can provide insight into how people will interact with interfaces; overall, psychology lends a deeper understanding of human cognition and design. Communication Disorders is an area of interest as well; from personal experiences of living with autistic and neurologically impaired family members, another goal is to design accessible educational technology and ensure an accommodating, stress-free experience for them.</p>
 
-another goal is to design accessible educational technology and ensure an accommodating, stress-free experience for them.   
+  </p>I plan on attending graduate school Human-Computer Interaction, hoping to enrich my knowledge of human behavior, cognitive processes, and technology. Currently, I am working in the VCA lab under Professor Kyle Cave to gain research experience and I am in the process of writing my honors thesis.</p>
 
-I plan on attending graduate school in Cognitive Science or Human-Computer Interaction, hoping to enrich my knowledge of human behavior, cognitive processes, and technology. Currently, I am working in a lab to gain research experience and plan on writing a thesis to prepare for graduate school. After graduate school, I will work as a User-Experience designer to create effective, accessible, and aesthetic user interfaces to ensure the best possible user experience and aid in solving problems.
+  </p>My non-academic hobbies include music (attending concerts & playing the piano and the ukulele), baking healthy desserts, working out, or searching for the perfect cup of coffee!</p>
+
     </div>
 </section>
 
@@ -139,7 +156,8 @@ I plan on attending graduate school in Cognitive Science or Human-Computer Inter
 
 </div>
 <div class="column is-6 is-offset-3">
-  <a class="button is-large is-fullwidth is-text">View Full Resume</a>
+
+  <a href="Summer_18_Resume.pdf" class="button is-large is-fullwidth is-text">View Full Resume</a>
 
 </div>
 
@@ -150,29 +168,46 @@ I plan on attending graduate school in Cognitive Science or Human-Computer Inter
 <div class="tile is-ancestor">
   <div class="tile is-parent">
     <article class="tile is-child box">
-      <p class="title">Fridge Helper</p>
-      <p class="subtitle">What is up?</p>
+      <p class="title is-3 has-text-centered">Fridge Helper</p>
+      <p class="subtitle is-6 has-text-centered">Human Computer Interaction (CS 590C) Final Project</p>
+
+      <a href="https://docs.google.com/presentation/d/1TfUQQpNubBQc2rduxHJ-ScLOx7rTJEgL4n4FSTmT860/edit?usp=sharing">
+        <figure class="image is-1by1">
+            <img src="fridge.png">
+          </figure></a>
     </article>
   </div>
   <div class="tile is-parent">
     <article class="tile is-child box">
-      <p class="title">Foo</p>
-      <p class="subtitle">Bar</p>
+      <p class="title is-3 has-text-centered">Choose My Clothing!</p>
+      <p class="subtitle is-6 has-text-centered">Web Programming (CS 326) Final Project</p>
+      <a href="https://docs.google.com/presentation/d/1TfUQQpNubBQc2rduxHJ-ScLOx7rTJEgL4n4FSTmT860/edit?usp=sharing">
+        <figure class="image is-1by1">
+            <img src="fridge.png">
+          </figure></a>
     </article>
   </div>
   <div class="tile is-parent">
     <article class="tile is-child box">
-      <p class="title">Third column</p>
-      <p class="subtitle">With some content</p>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-      </div>
+      <p class="title">Machine Learning Outfit Generator</p>
+      <p class="subtitle">TJX Intern Project in collaboration with Microsoft</p>
     </article>
   </div>
 </div>
 
 </div>
 
+</section>
+
+<section class="section is-light">
+    <div id="Contact" class="container is-centered">
+                          <h1 id="header1" class="title is-3 has-text-centered">Get in Touch!</h1>
+
+      <h2 class = "content has-text-weight-light has-text-centered" >
+      Please feel free to check out my online links and connect with me! 
+            
+
+    </div>
 </section>
 </div>
 
