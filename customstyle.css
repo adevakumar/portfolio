@@ -3,7 +3,7 @@
 }
 
 .navbar-burger {
-	color: white;
+	color: pink;
 	background-color: #881c1c;
 }
 
@@ -23,6 +23,18 @@ font-family: 'Oswald', sans-serif;
 #tl:hover {
 	background-color: #e8c2c4;
 }
+
+#one:hover {
+	background-color: #29352C;
+}
+#two:hover {
+	background-color: #29352C;
+}
+#three:hover {
+	background-color: #29352C;
+}
+#four:hover {
+	background-color: #29352C;
 
 
 
